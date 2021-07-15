@@ -1,0 +1,78 @@
+.root{
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+
+
+.x-icon-button{
+  position: absolute;
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  background-color: rgb(36, 8, 8);
+  background-image: url('../../../assets/delete_icon.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  right: -17px; /* this has to be half of the width*/
+  top: -17px; /*  this has to be half of the height*/
+  /* display: none; */
+  transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+  transform: scale(0);
+}
+
+
+/* .x-icon-button:hover{
+  opacity: 1;
+  transform: scale(1.5);
+} */
+
+
+
+
+
+.budget-item{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: lightgrey;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.description{
+  display: flex;
+  flex-grow: 1;
+  font-size: 18px;
+  margin-left: 5px;
+  align-items: center;
+  /* margin-top: 11px; */
+
+}
+
+.amount{
+  /* margin-top: 11px; */
+  border-radius: 3px;
+}
+
+.income p{
+  color: rgb(85, 158, 95);
+}
+
+.expense p{
+  color: red;
+}
+
+.income .amount p{
+  background-color: rgb(157, 240, 207);
+  margin-right: 5px;
+}
+
+.expense .amount p{
+  background-color: rgb(211, 159, 159);
+  /* padding: 5px; */
+  margin-right: 5px;
+
+}

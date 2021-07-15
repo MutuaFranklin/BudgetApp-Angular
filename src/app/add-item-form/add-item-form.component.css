@@ -1,0 +1,24 @@
+#addForm{
+  display: flex;
+  justify-content: center;
+
+}
+
+input{
+  border: none;
+  background-color: lightgrey;
+  color: #fff;
+
+
+}
+
+input::placeholder{
+  color: #fff;
+
+}
+
+#addForm #addButton{
+  border: none;
+  color: #fff;
+  background-color: rgb(85, 70, 167);
+}
